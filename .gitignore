@@ -1,0 +1,8 @@
+/Eureka_Provider/*.iml
+/Eureka_Server/*.iml
+/Feign_Consumer/*.iml
+/Ribbon_Consumer/*.iml
+/Ribbon_Consumer/target
+.idea
+/*/target
+/Eureka.iml
