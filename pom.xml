@@ -12,15 +12,18 @@
         <module>Eureka_Server</module>
         <module>Eureka_Provider</module>
         <module>Ribbon_Consumer</module>
-        <module>Feign_Consumer</module>
+        <module>Hystrix_Feign_Consumer</module>
+        <module>Hystrix_Ribbon_Consumer</module>
+        <module>Consul_Provider</module>
+        <module>Consul_Ribbon_Feign_Consumer</module>
     </modules>
     <name>Eureka</name>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>2.3.3.RELEASE</spring-boot.version>
-        <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
+        <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
+        <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
     </properties>
 
     <dependencyManagement>

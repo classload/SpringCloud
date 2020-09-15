@@ -5,7 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 //服务名称
-@FeignClient("Eureka-Provider")
+// fallback 熔断回调的对象
+//feign默认以来hystix包 不需要引入
+@FeignClient(value = "Eureka-Provider", fallback = HystrixComputeService.class)
 public interface ComputeService {
 
     //配置远程的服务请求

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Consul-Rabbon-Feign-Consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        #设置不需要注册到 consul 中
+        register: false
+server:
+  port: 8008
+feign:
+  hystrix:
+    enabled: true

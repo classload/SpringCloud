@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Consul-Provider
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+server:
+  port: 8007

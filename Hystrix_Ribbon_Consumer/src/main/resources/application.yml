@@ -1,8 +1,8 @@
 server:
-  port: 8004
+  port: 8005
 spring:
   application:
-    name: Feign_Consumer
+    name: Hystrix_Ribbon_Consumer
 eureka:
   client:
     service-url:
